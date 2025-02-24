@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+  <head>
+    <meta charset="utf-8">
+    <title>Three.jsの図解1</title>
+    <style>
+      body {
+        margin: 0;
+      }
+    </style>
+
+    <!-- CDNからThree.jsのインポート -->
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "https://unpkg.com/three@v0.159.0/build/three.module.js",
+          "three/addons/": "https://unpkg.com/three@v0.159.0/examples/jsm/"
+        }
+      }
+    </script>
+  </head>
+
+  <body>
+    <!-- three.jsを使ったシーンのインポート -->
+    <canvas id="c"></canvas>
+    <script type="module" src="./main.js"></script>
+  </body>
+
+</html>
