@@ -65,7 +65,7 @@
             const renderer = new THREE.WebGLRenderer( { antialias: true, canvas } );
             const view1Elem = document.querySelector( '#view1' );
             const view2Elem = document.querySelector( '#view2' );
-            renderer.setPixelRatio(window.devicePixelRatio); // 高解像度対応
+            renderer.setPixelRatio(window.devicePixelRatio);
             renderer.setSize(window.innerWidth, window.innerHeight);
             document.body.appendChild(renderer.domElement);
 
